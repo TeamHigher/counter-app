@@ -6,13 +6,12 @@ import PageNotFound from "./Routes/pageNotFound";
 function App() {
   return (
     <Router>
-      <nav>
+      <nav className="navItems">
         <ul>
           <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/error">Error Boundary Test</Link>
+            <Link className="link" to="/">
+              Home
+            </Link>
           </li>
         </ul>
       </nav>

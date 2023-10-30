@@ -1,4 +1,5 @@
 import useCounter from "../Custom-Hooks/useCounter";
+import { Link } from "react-router-dom";
 
 const CounterPage = () => {
   const { count, increment, decrement, reset, setValue } = useCounter();
@@ -28,6 +29,13 @@ const CounterPage = () => {
             Reset
           </button>
           <button onClick={increment} id="add" className="fas fa-add"></button>
+          <div className="errorLink">
+            <ul>
+              <li>
+                <Link to="/error">Page not found Test</Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

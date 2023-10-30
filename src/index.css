@@ -83,3 +83,16 @@ body {
   padding: 0.5rem 1rem;
   margin: 0.5rem;
 }
+
+.navItems {
+  margin-left: 50px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.errorLink {
+  margin: 0 auto;
+  margin-top: 20px;
+}
